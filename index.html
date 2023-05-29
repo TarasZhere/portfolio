@@ -23,84 +23,40 @@
 			rel="stylesheet"
 		/>
 		<!-- custom style -->
-		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="./css/index.css" />
 	</head>
 	<body class="dark-1">
 		<!-- Static navbar -->
 		<nav class="navbar fixed-top glass mt-3 mx-5 rounded-5 px-5">
 			<div class="container-fluid">
 				<a class="navbar-brand light-3" href="/">TZ</a>
+				<a class="btn btn-outline-light" href="#"
+					><i class="bi bi-code-slash"></i
+				></a>
 			</div>
 		</nav>
 		<!-- Matrix effect -->
 		<canvas id="Matrix"></canvas>
-		<script src="./matrix.js"></script>
+		<script src="./js/matrix.js"></script>
 
+		<div style="background-image: url(./static/main-bg.svg); height: 90vh">
+			<div class="h-100 container d-flex flex-column mt-5 pt-5">
+				<h1 class="light-3">Intro:</h1>
+				<p id="type-effect" class="light-1"></p>
+				<script src="./js/typing.js"></script>
+			</div>
+			<div class="container d-flex justify-content-center">
+				<h1 class="bold">
+					<i
+						style="height: 200px"
+						class="light-3 bi bi-chevron-double-down"
+					></i>
+				</h1>
+			</div>
+		</div>
 		<div
-			class=""
-			style="background-image: url(./main-bg.svg); height: 100vh"
-		>
-			<div
-				class="h-100 container d-flex flex-column justify-content-center"
-			>
-				<h1 class="light-3">Taras Zherebetskyy</h1>
-				<p class="light-1">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Eum quasi, quos atque ex dolorum dignissimos autem quis
-					officiis a inventore ad tenetur enim, officia delectus
-					fugiat suscipit, ratione quam illum dicta! Minus eius fugit
-					fuga reiciendis. Eveniet at quisquam unde maxime corrupti
-					atque laborum pariatur? Facilis, exercitationem commodi?
-					Voluptates voluptatum pariatur molestias eligendi atque,
-					architecto distinctio. Temporibus iusto dolorum voluptas
-					accusantium animi fugit sapiente cum dolorem magni eveniet
-					quia minus perferendis beatae, est placeat iste
-					reprehenderit magnam corrupti cumque! Quod animi maiores
-					eaque. Necessitatibus ad ullam voluptatibus quae qui
-					consequuntur quas assumenda. Officia, sit minima. Similique
-					blanditiis aperiam fuga quidem.
-				</p>
-			</div>
-		</div>
-		<div style="background-image: url(./bg-3.svg); height: 100vh">
-			<div class="container">
-				<h1 class="text-dark-1">Taras Zherebetskyy</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Eum quasi, quos atque ex dolorum dignissimos autem quis
-					officiis a inventore ad tenetur enim, officia delectus
-					fugiat suscipit, ratione quam illum dicta! Minus eius fugit
-					fuga reiciendis. Eveniet at quisquam unde maxime corrupti
-					atque laborum pariatur? Facilis, exercitationem commodi?
-					Voluptates voluptatum pariatur molestias eligendi atque,
-					architecto distinctio. Temporibus iusto dolorum voluptas
-					accusantium animi fugit sapiente cum dolorem magni eveniet
-					quia minus perferendis beatae, est placeat iste
-					reprehenderit magnam corrupti cumque! Quod animi maiores
-					eaque. Necessitatibus ad ullam voluptatibus quae qui
-					consequuntur quas assumenda. Officia, sit minima. Similique
-					blanditiis aperiam fuga quidem.
-				</p>
-			</div>
-		</div>
-		<div style="background-image: url(./bg-3.svg); height: 100vh">
-			<h1>Taras Zherebetskyy</h1>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
-				quasi, quos atque ex dolorum dignissimos autem quis officiis a
-				inventore ad tenetur enim, officia delectus fugiat suscipit,
-				ratione quam illum dicta! Minus eius fugit fuga reiciendis.
-				Eveniet at quisquam unde maxime corrupti atque laborum pariatur?
-				Facilis, exercitationem commodi? Voluptates voluptatum pariatur
-				molestias eligendi atque, architecto distinctio. Temporibus
-				iusto dolorum voluptas accusantium animi fugit sapiente cum
-				dolorem magni eveniet quia minus perferendis beatae, est placeat
-				iste reprehenderit magnam corrupti cumque! Quod animi maiores
-				eaque. Necessitatibus ad ullam voluptatibus quae qui
-				consequuntur quas assumenda. Officia, sit minima. Similique
-				blanditiis aperiam fuga quidem.
-			</p>
-		</div>
+			style="background-image: url(./static/bg-2.svg); height: 100vh"
+		></div>
 		<!-- Bootstrap Link -->
 		<script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.js"></script>
 	</body>
