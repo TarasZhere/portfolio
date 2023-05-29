@@ -1,0 +1,46 @@
+* {
+	font-family: "Poppins", sans-serif;
+	font-family: "Roboto Mono", monospace;
+}
+div {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.glass {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.1);
+
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.9px);
+	-webkit-backdrop-filter: blur(4.9px);
+	border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+.dark-1 {
+	background-color: #131515;
+}
+
+.text-dark-1 {
+	color: #131515;
+}
+
+.dark-2 {
+	background-color: #363630;
+}
+.dark-3 {
+	background-color: #686864;
+}
+.light-1 {
+	color: #eaeaea;
+}
+.light-2 {
+	color: #6bd425;
+}
+.light-3 {
+	color: #e980fc;
+}
+canvas {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+}
